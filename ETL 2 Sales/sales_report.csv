@@ -1,0 +1,273 @@
+row_id,order_id,order_date,ship_date,customer_name,customer_email,region,country,product,category,quantity,unit_price,discount,sales_amount,payment_method,salesperson,channel,status,notes
+1,100000,03-Jan-2026,08/14/2024,sofia kim,sofia.kim@yahoo.com,EMEA,Philippines,USB-C Hub,Accessories,15,141.36,15%,1802.34,PayPal,L. Patel,Marketplace,Pending,customer requested callback
+2,100001,12/29/2024,"Dec 01, 2025",Isabella Martin,isabella.martin@yahoo.com,North America,Philippines,Monitor 27in,Electronics,4,"1,478",0.05,"$5,616.44",Bank Transfer,L. Patel,phone,Cancelled,DUPLICATE?
+3,100002,2024-04-22,2025-11-28, Mason Thomas ,mason.thomas@yahoo.com,West ,India,Office Chair,Furniture,10,880.30,10%,"$7,922.70",Cash,M. Chen,Online,Complete,duplicate?
+4,100003,21-Mar-2024,2024-03-12,Sofia Jackson,sofia.jackson@yahoo.com,N. America,USA,Office Chair,Furniture,10,40.98,0.10,368.82,Bank Transfer,T. Brown,phone,Pending,price override
+5,100004,"Jul 13, 2024",29-Dec-2024,Aria Nguyen,aria.nguyen @ gmail.com,LATAM,France,Laptop Pro 14,electronics,12, 814.38 ,0.25,"$7,329.42",Bank Transfer,T. Brown,Retail,delivered,customer requested callback
+6,100005,05/13/2025,01-Mar-2024,N. Brown,n.brown@gmail.com,North America,UK,Noise Cancel Headphones,Electronics,-2,$406.62,15%,-691.3,Debit Card,J. Reyes,Partner,SHIPPED,promo applied
+7,100006,6/2/25,03/12/2024,Lucas Johnson,lucas.johnson@company.com,apac,Philippines,Monitor 27in,Electronics,5,1394.38,0%,"6,972",Cash,E. Taylor,Online,Returned,duplicate?
+8,100007,2025-12-08,2025-01-14,Evelyn Martinez,evelyn.martinez@outlook.com,North America,Singapore,Laptop Pro 14,Electronics,20," 1,469.94 ",5%,,Bank Transfer,R. Gomez,Online,Returned,duplicate?
+9,100008,2025/04/16,"Aug 22, 2024",Ava Smith,ava.smith@gmail.com,apac,India,Monitor 27in,Electronics,20,248.9,25%," 3,733.35 ",Wire,R. Gomez,Web,Returned,duplicate?
+10,100009,11/11/2025,05/08/2024,Harper Martin,harper.martin@company.com,West,USA,Wireless Mouse,Accessories,15,786,20%,9427.7,PayPal,E. Taylor,Web,on hold,"customer requested callback, follow-up"
+11,100010,2024-07-22,2025/05/02,James Thomas,james.thomas@yahoo.com,latam,UK,Printer Ink,Office,-3, 999.81 ,20%,-2399.5,Wire,N. Khan,phone,Cancelled,customer requested callback
+12,100011,2025/05/01,2025/10/15, Emma Thomas ,emma.thomas@company.com,emea,Singapore,Noise Cancel Headphones,Electronics,20,923.63,0.25," 13,854.45 ",Bank Transfer,L. Patel,Retail,Cancelled,late payment
+13,100012,2025-09-09,03/23/2025,Harper Taylor,harper.taylor@corp.co,emea,Australia,Ergonomic Mat,office,-2,$456.34,0.15,$-775.78,Credit Card,S. Ahmed,in-store,on hold,first order
+14,ORD-100013,29-Apr-2025,08/12/2024,Ella Anderson,ella.anderson@outlook.com,North America,Singapore,Wireless Mouse,Accessories,4," 1,174.47 ",25%," 3,345.33 ",Debit Card,L. Patel,Partner,Delivered,manual entry
+15,100014,2025-12-25,"Jun 19, 2025",Emily Kim,emily.kim@corp.co,South,Philippines,Ergonomic Mat,Office,-3,519.75,0.15," -1,325.36 ",Bank Transfer,R. Gomez,Web,Complete,rush order
+16,100015,2024-08-14,11-Nov-2025,Chloe Martin,chloe.martin@corp.co,LATAM,Canada,USB-C Hub,Accessories,4,739.0,5%,"$2,808.20",Card,R. Gomez,Marketplace,on hold,late payment
+17,100016,13-Jan-2024,3/28/25,Emily Davis,emily.davis@outlook.com,West,USA,Standing Desk,Furniture,15, 420.18 ,0%,6302.70,Credit Card,M. Chen,in-store,COMPLETE,promo applied
+18,100017,12/06/2025,08/26/2024,Isabella Harris,isabella.harris@yahoo.com,latam,Canada,USB-C Hub,accessories,20,$326.01,25%,"4,890",Bank Transfer,P. Singh,Web,Delivered,first order
+19,100018,02/22/2026,12-Feb-2024,Isabella Taylor,isabella.taylor @ yahoo.com,emea,USA,Webcam HD,Electronics,7,910.33,0%," 6,372.31 ",Debit Card,N. Khan,phone,Returned,address typo
+20,100019,2025-03-24,2025-10-08,Emma Taylor,emma.taylor@corp.co,South,USA,Laptop Pro 14,Electronics,4,$938.48,15%,3190.83,Debit Card,T. Brown,Retail,Shipped,address typo
+21,100020,04/02/2025,20-Jul-2025,Emily Jackson,emily.jackson@outlook.com,South,Singapore,Office Chair,Furniture,20,"$1,232.98",10%,"22,194",Wire,P. Singh,Direct,Cancelled,customer requested callback
+22,100021,"Jun 30, 2025",17-Feb-2026,Henry Lopez,henry.lopez@gmail.com,APAC,Australia,Noise Cancel Headphones,electronics,12,123.34,10%,"1,332",Debit Card,T. Brown,Web,Cancelled,FIRST ORDER
+23,100022,21-Apr-2025,3/17/24,Logan Anderson,logan.anderson@corp.co,South,Brazil,Office Chair,furniture,12,"1,370",5%,"$15,621.31",Bank Transfer,L. Patel,in-store,on hold,FIRST ORDER
+24,100023,"Oct 05, 2025",02/11/2024,Leo Nguyen,leo.nguyen@company.com,West,Germany,Notebook Pack,Office,10,337.88,5%,3209.9,Bank Transfer,S. Ahmed,phone,PENDING,promo applied
+25,100024,"Oct 15, 2025",2025/04/28,Noah Garcia,noah.garcia@yahoo.com,South,Mexico,Standing Desk,Furniture,-2,32.71,20%,-52.3,Wire,L. Patel,in-store,Cancelled,rush order
+26,100025,01/02/2025,"May 06, 2024",Harper Kim,harper.kim@company.com,North America,India,Ergonomic Mat,Office,6,673.71,0.05,"3,840",Bank Transfer,P. Singh,Partner,SHIPPED,rush order
+27,100026,30-Aug-2025,2025/09/22, Lucas Smith ,lucas.smith@yahoo.com,LATAM,Brazil,Laptop Pro 14,Electronics,-2,89.97,25%,-134.95,Card,J. Reyes,Online,Returned,first order
+28,100027,2025-02-12,03/14/2025,Emily Jackson,emily.jackson@corp.co,latam,Canada,Webcam HD,Electronics,12," 1,156.22 ",0.25," 10,405.98 ",Debit Card,A. Wilson,Retail,complete,price override
+29,100028,"Sep 28, 2025","Jan 28, 2024",Emily Davis,emily.davis@corp.co,Central,Germany,Ergonomic Mat,Office,2,$839.72,0.00,1679.4,Invoice,R. Gomez,Web,Shipped,
+30,100029,06/08/2025,18-Oct-2024,Leo Lopez,leo.lopez@yahoo.com,APAC,UK,Ergonomic Mat,Office,20," 1,014.87 ",10%,"18,268",Bank Transfer,J. Reyes,Online,RETURNED,late payment
+31,100030,2025/01/05,09/07/2024,owen wilson,owen.wilson@outlook.com,emea,Australia,Nootebook Pack,Office,15,442.80,15%,5645.7,PayPal,R. Gomez,Direct,Returned,rush order
+32,100031,04/25/2025,10/09/2024,O. Patel,o.patel@gmail.com,emea,UAE,Printer Ink,Office,12,852,0.25," 7,667.64 ",Cash,R. Gomez,Online,Complete,rush order
+33,100032,2024/10/16,2025/11/27,James Martin,james.martin@corp.co,East,India,Office Chair,Furniture,2,268.77,5%,$510.66,Cash,L. Patel,phone,Delivered,price override
+34,100033,2024-07-15,2024/10/30,Abigail Taylor,abigail.taylor@outlook.com,latam,Philippines,Monitor 27in,Electronics,-3,642.0,10%," -1,733.48 ",Wire,P. Singh,Partner,Shipped,promo applied
+35,100034,2024/07/23,2024/02/24,Owen Thomas,owen.thomas@gmail.com,Central,Germany,Standing Desk,Furniture,6,$860.78,15%,"$4,389.98",Debit Card,L. Patel,Retail,Delivered,promo applied
+36,100035,2025-09-22,2024-09-20,Mason Patel,mason.patel@outlook.com,latam,Philippines,Laptop Pro 14,Electronics,6,216.75,0.10," 1,170.45 ",Credit Card,M. Chen,Web,ON HOLD,CUSTOMER REQUESTED CALLBACK
+37,100036,09/16/2024,"Mar 11, 2024",Amelia Brown,amelia.brown@gmail.com,East,Canada,Office Chair,Furniture,9,"$1,182.18",20%,"$8,511.70",card,S. Ahmed,Marketplace,PROCESSING,price override
+38,100037,10-Jul-2024,2026/03/28,Grace White,grace.white@company.com,East,USA,Laptop Pro 14,Electronics,12,197,10%,"$2,129.98",Cash,E. Taylor,Partner,Delivered,VIP
+39,100038,2025-01-05,6/7/24,owen nguyen,owen.nguyen@corp.co,latam,philippines,Printer Ink,Office,3,224,20%,538.70,Invoice,A. Wilson,Marketplace,Delivered,duplicate?
+40,100039,6/10/24,10/16/2025, Evelyn Johnson ,evelyn.johnson@corp.co,Central,Canada,Wireless Mouse,Accessories,20," 1,270.14 ",10%,"$22,862.52",Credit Card,N. Khan,Direct,Cancelled,VIP
+41,100040,6/17/24,2024/08/19,Noah Garcia,noah.garcia @ yahoo.com,APAC,Mexico,Printer Ink,Office,12,1154.46,5%,13160.84,Cash,S. Ahmed,Web,Returned,manual entry
+42,100041,2024-03-15,2025-03-02,Sofia Harris,sofia.harris@corp.co,apac,USA,Standing Desk,Furniture,8, 823.82 ,0.25,4942.9,Wire,R. Gomez,Marketplace,processing,promo applied
+43,ORD-100042,12/27/2024,04-Sep-2025,Chloe Smith,chloe.smith@yahoo.com,APAC,UAE,Ergonomic Mat,Office,9,"1,320",15%,"$10,098.46",Wire,R. Gomez,Web,Delivered,VIP
+44,100043,09/12/2025,09/20/2025,Emma Garcia,emma.garcia@gmail.com,N. America,Singapore,Keyboard Mechanical,Accessories,20,908,15%,14322.71,Cash,P. Singh,in-store,Returned,address typo
+45,100044,"Mar 04, 2025","Feb 25, 2025",Ella Harris,ella.harris@company.com,latam,Brazil,Notebook Pack,Office,20,231.89,25%,3478.3,Invoice,E. Taylor,Direct,Shipped,duplicate?
+46,100045,2024-12-19,1/2/26,Abigail Davis,abigail.davis@company.com,latam,India,USB-C Hub,Accessories,8,531.0,25%,"3,186",Cash,E. Taylor,Web,Complete,promo applied
+47,100046,2024/02/08,06/30/2024,Ava White,ava.white@gmail.com,Central,UAE,Office Chair,Furniture,12,"1,446",10%,"16,460",Debit Card,L. Patel,Online,Returned,VIP
+48,100047,11/27/2024,08/30/2024,aria smith,aria.smith@company.com,LATAM,UK,Monitor 27in,Electronics,10," 1,346.80 ",15%,"11,448",Credit Card,T. Brown,Marketplace,Shipped,duplicate?
+49,100048,05-Jan-2025,05-Mar-2024,Evelyn Garcia,evelyn.garcia@corp.co,Central,Mexico,Ergonomic Mat,Office,20,337.00,5%,6403.0,Bank Transfer,M. Chen,in-store,Pending,price override
+50,100049,03/06/2025,"Jan 22, 2025",Lucas Carter,lucas.carter@corp.co,N. America,USA,Ergonomic Mat,Office,2,714.44,10%,1286.0,PayPal,M. Chen,Marketplace,Pending,split shipment
+51,100050,09/07/2024,2024/08/28,Amelia Garcia,amelia.garcia@gmail.com,apac,Australia,Notebook Pack,office,10,1327.0,0%,"$13,519.63",Invoice,T. Brown,Web,Pending,manual entry
+52,100051,2024/11/03,3/1/24,Mia Anderson,mia.anderson@gmail.com,apac,Australia,Laptop Pro 14,Electronics,20,1048.1,15%,17817.9,Invoice,T. Brown,Web,Pending,duplicate?
+53,,25-Nov-2024,10/27/2025,Leo White,leo.white@company.com,North America,Germany,Standing Desk,Furniture,4,$186.57,0.15,634.3,Bank Transfer,R. Gomez,in-store,Complete,VIP
+54,100053,09-Jul-2025,2024/03/18,Grace Brown,grace.brown@gmail.com,Central,India,Printer Ink,Office,12, 697.71 ,0.25,6279.4,card,E. Taylor,Direct,CANCELLED,VIP
+55,100054,2025-02-19,"Dec 15, 2025",Ava Jackson,ava.jackson@gmail.com,APAC,Canada,Printer Ink,Office,2,371,20%,592.90,Credit Card,J. Reyes,in-store,SHIPPED,price override
+56,100055,15-Jun-2024,03-Feb-2025,Henry Moore,henry.moore@company.com,N. America,Brazil,Wireless Mouse,Accessories,-2,35.30,5%,-67.1,Invoice,E. Taylor,Retail,Pending,
+57,100056,4/19/24,04/01/2025,Abigail Taylor,abigail.taylor@yahoo.com,emea,France,Printer Ink,Office,20,121,10%,"2,185",Credit Card,M. Chen,phone,Pending,rush order
+58,100057,04/13/2025,"Feb 10, 2025",M. Taylor,m.taylor@corp.co,EMEA,UK,USB-C Hub,Accessories,7,458.03,0%,3206.2,PayPal,P. Singh,phone,processing,late payment
+59,100058,25-Mar-2026,10/11/2025,Lucas Taylor,lucas.taylor@yahoo.com,APAC,Philippines,Ergonomic Mat,Office,20,1430.07,0.15,24311.2,Card,N. Khan,Retail,on hold,manual entry
+60,100059,2025/01/18,2025-08-26,S. Wilson,s.wilson @ company.com,South,Singapore,Ergonomic Mat,Office,20,27.70,10%,499,PayPal,M. Chen,Retail,COMPLETE,VIP
+61,100060,2024/01/30,04/06/2025,James Kim,james.kim@yahoo.com,N. America,UK,Office Chair,Furniture,9,$845.06,15%,6464.71,Debit Card,P. Singh,Retail,Cancelled,split shipment
+62,100061,05/21/2024,"May 14, 2025",E. Martin,e.martin@yahoo.com,emea,Brazil,Printer Ink,Office,2,$478.02,5%,908,PayPal,L. Patel,in-store,Pending,promo applied
+63,,2025/08/09,2025/01/11,Aria Thomas,aria.thomas@outlook.com,LATAM,France,Wireless Mouse,Accessories,1,$811.96,0.05,771.4,Bank Transfer,M. Chen,phone,Complete,late payment
+64,100063,2025-06-10,2026-02-08,Aria Martin,aria.martin@gmail.com,LATAM,USA,Office Chair,Furniture,10,430.25,20%,3442.00,PayPal,T. Brown,Partner,Pending,price override
+65,100064,03/15/2025,18-Oct-2024,Logan Martinez,logan.martinez@outlook.com,emea,USA,Monitor 27in,Electronics,20, 150.59 ,15%," 2,560.03 ",debit card,J. Reyes,Online,Complete,duplicate?
+66,100065,2024-03-20,2025-11-28, Chloe Martinez ,chloe.martinez@outlook.com,apac,UK,Monitor 27in,Electronics,1,466.60,0.25,349.95,Card,S. Ahmed,phone,Delivered,rush order
+67,100066,01/28/2025,"May 24, 2024",Henry Carter,henry.carter@outlook.com,apac,India,Office Chair,Furniture,3,$928.72,0.15,2368.24,Bank Transfer,L. Patel,Online,Returned,split shipment
+68,100067,"Jun 02, 2025","Feb 25, 2026",Ava Wilson,ava.wilson @ outlook.com,South,Singapore,Office Chair,Furniture,9,"$1,146.94",0%,9831.49,Bank Transfer,M. Chen,Web,Pending,promo applied
+69,100068,2025/01/15,2024-10-03,Elijah Martin,elijah.martin@company.com,APAC,Canada,USB-C Hub,Accessories,1,"1,056",5%,"$1,003.04",Debit Card,E. Taylor,Web,processing,late payment
+70,100069,03/02/2025,2024-03-21,Emma Brown,emma.brown@yahoo.com,Central,Singapore,Laptop Pro 14,Electronics,7, 278.29 ,0%,1948.0,Debit Card,A. Wilson,Online,Shipped,address typo
+71,100070,2026-01-14,9/1/24,Ella Johnson,ella.johnson@yahoo.com,North America,Australia,Webcam HD,Electronics,1, 527.48 ,0.25,395.61,Bank Transfer,J. Reyes,Retail,Pending,split shipment
+72,100071,17-Nov-2024,02/28/2026,Sophia Davis,sophia.davis @ outlook.com,latam,Singapore,Monitor 27in,Electronics,6,$359.61,5%,2049.78,Credit Card,P. Singh,Web,delivered,customer requested callback
+73,100072,2025/08/23,1/24/24,Leo White,leo.white@outlook.com,EMEA,USA,Noise Cancel Headphones,Electronics,1,1474.06,5%,"1,400",Credit Card,M. Chen,Marketplace,pending,address typo
+74,100073,"Jan 20, 2024",07-May-2025,Emily Martin,emily.martin@outlook.com,N. America,UAE,Printer Ink,Office,-2,216.21,5%,-410.80,Invoice,J. Reyes,Partner,processing,manual entry
+75,100074,7/31/25,2025-05-20,Grace Nguyen,grace.nguyen@outlook.com,South,Singapore,Standing Desk,Furniture,3,893.7,25%,2010.76,Card,J. Reyes,Direct,Shipped,
+76,ORD-100075,2025/12/25,"Sep 21, 2025",Benjamin Jackson,benjamin.jackson@company.com,South,Brazil,Wireless Mouse,Accessories,2,492.03,5%,935,PayPal,S. Ahmed,Web,on hold,price override
+77,100076,12/10/2025,2024-04-21,Henry Kim,henry.kim@gmail.com,East,Singapore,Office Chair,furniture,3," 1,445.06 ",25%,,Wire,N. Khan,phone,on hold,VIP
+78,100077,4/13/24,"Feb 24, 2025",N. Lopez,,EMEA,Singapore,Keyboard Mechanical,accessories,10,1341.12,25%,10058.40,Debit Card,T. Brown,web,Returned,
+79,100078,2024-08-19,2026-02-10,Isabella Patel,isabella.patel@gmail.com,Central,Philippines,Wireless Mouse,Accessories,-3,588.6,0.10,"$-1,589.33",Credit Card,E. Taylor,Direct,on hold,first order
+80,100079,01/14/2026,2025/02/11, Jack Martin ,jack.martin@yahoo.com,LATAM,Germany,Noise Cancel Headphones,Electronics,-1,1482.56,15%,-1260.18,Wire,M. Chen,phone,Shipped,promo applied
+81,100080,03/23/2026,2025-05-19,Sofia Moore,sofia.moore@gmail.com,emea,Philippines,Noise Cancel Headphones,Electronics,15,600.94,10%,8072.48,Cash,R. Gomez,in-store,Pending,price override
+82,100081,2024-05-06,2025-05-16, Logan Taylor ,logan.taylor@corp.co,LATAM,Germany,Webcam HD,electronics,1, 691.20 ,10%, 622.08 ,Cash,M. Chen,Web,processing,
+83,100082,09/15/2024,18-Jun-2025,Jack Carter,jack.carter@outlook.com,North America,Germany,Office Chair,Furniture,5,1415.19,0.25,"$5,306.96",Debit Card,L. Patel,Web,processing,address typo
+84,100083,31-Dec-2025,3/15/26,Benjamin Martin,benjamin.martin@company.com,apac,UAE,Monitor 27in,Electronics,5,$634.83,15%," 2,698.03 ",Debit Card,L. Patel,Partner,Returned,address typo
+85,100084,2025/02/27,05/21/2024,Chloe Lopez,chloe.lopez@corp.co,Central ,USA,Ergonomic Mat,Office,12,1417.12,0%,17005.44,Card,M. Chen,Partner,complete,VIP
+86,100085,2024-12-18,2025-05-31,Harper Anderson,harper.anderson @ corp.co,LATAM,India,Noise Cancel Headphones,electronics,6," 1,339.31 ",20%,"6,429",Invoice,E. Taylor,in-store,Returned,first order
+87,100086,30-Mar-2025,2025-05-01,Ethan Carter,ethan.carter@outlook.com,North America,Australia,Office Chair,Furniture,12, 807.68 ,0%,,Cash,E. Taylor,Retail,Shipped,manual entry
+88,100087,"Mar 09, 2026",2024-04-14,Ethan Wilson,ethan.wilson@outlook.com,LATAM,India,USB-C Hub,Accessories,8,$16.07,25%,96,PayPal,M. Chen,Online,Returned,follow-up
+89,100088,03/01/2024,28-Aug-2025,Elijah Martin,elijah.martin@yahoo.com,South,Australia,Notebook Pack,Office,8, 585.94 ,0.15,3984.4,Card,S. Ahmed,Online,on hold,address typo
+90,100089,2025/10/20,2025/05/23,Benjamin Lopez,benjamin.lopez@gmail.com,apac,India,Notebook Pack,Office,4,999.60,25%,"2,999",Bank Transfer,E. Taylor,Online,processing,split shipment
+91,100090,2025/04/10,"Sep 07, 2025",mason anderson,mason.anderson@corp.co,emea,Philippines,Webcam HD,Electronics,5,848.75,25%,"$3,182.81",Invoice,R. Gomez,Online,delivered,duplicate?
+92,100091,1/23/26,23-Aug-2025,Benjamin Taylor,benjamin.taylor@corp.co,South,USA,Standing Desk,Furniture,12,$888.15,15%,N/A,Debit Card,S. Ahmed,Partner,Pending,first order
+93,100092,5/15/24,"Jul 02, 2024",Olivia Garcia,olivia.garcia@gmail.com,latam,Mexico,Notebook Pack,Office,6,1404.04,25%,6318.2,Wire,P. Singh,in-store,Delivered,DUPLICATE?
+94,100093,"Mar 14, 2026",02/19/2024, Isabella Martinez ,isabella.martinez@yahoo.com,N. America,USA,Laptop Pro 14,Electronics,6,164.5,25%,740.2,Cash,J. Reyes,Online,processing,customer requested callback
+95,100094,02/10/2024,2024/02/23,Ethan Davis,ethan.davis@yahoo.com,EMEA,Australia,Printer Ink,Office,1, 840.22 ,5%,798.21,Debit Card,S. Ahmed,Direct,processing,split shipment
+96,100095,2024/01/26,11-Jun-2025, Sofia Carter ,sofia.carter@corp.co,emea,Brazil,Monitor 27in,Electronics,4,1027.6,10%,3699.50,PayPal,M. Chen,Retail,Cancelled,split shipment
+97,100096,"May 01, 2024","Sep 26, 2025",Olivia Carter,olivia.carter@corp.co,West,Mexico,Monitor 27in,Electronics,2,350.74,10%,$631.33,Cash,L. Patel,Retail,Delivered,manual entry
+98,100097,01/13/2026,2025-10-24,Sofia Garcia,sofia.garcia@outlook.com,North America,Mexico,Notebook Pack,Office,9,74.16,20%, 533.95 ,Credit Card,P. Singh,Partner,Returned,split shipment
+99,100098,2025/10/18,05/18/2024,Noah Johnson,noah.johnson@gmail.com,latam,Brazil,Noise Cancel Headphones,Electronics,3,554,0.10,1496.80,Debit Card,N. Khan,Web,Complete,promo applied
+100,100099,05/28/2025,2025-05-30,Grace Harris,grace.harris @ outlook.com,West,Mexico,Ergonomic Mat,office,9,1165.49,10%,"9,440",PayPal,N. Khan,Partner,Pending,PROMO APPLIED
+101,,01/20/2025,11/01/2025,Ethan Jackson,ethan.jackson@outlook.com,North America,USA,Monitor 27in,Electronics,12,1059.16,20%,10167.9,Card,R. Gomez,Marketplace,Cancelled,address typo
+102,100101,2025-08-09,04-Jul-2024,Sophia Anderson,sophia.anderson@yahoo.com,Central,Germany,Notebook Pack,Office,10,1252.0,0%,"12,520",Bank Transfer,M. Chen,Web,Shipped,address typo
+103,100102,2024/02/09,2024-04-06,James Thomas,james.thomas@yahoo.com,EMEA,USA,Wireless Mouse,Accessories,4,"$1,365.10",25%,4095.30,Wire,E. Taylor,phone,Shipped,VIP
+104,100103,03/12/2025,07/03/2025,Sophia Patel,sophia.patel@gmail.com,latam,India,Webcam HD,Electronics,-3,187,0%,-562.0,Card,E. Taylor,phone,on hold,promo applied
+105,ORD-100104,03/06/2024,09/16/2025,Mia Kim,mia.kim@outlook.com,emea,India,Keyboard Mechanical,Accessories,12,$251.18,25%,2260.62,Card,S. Ahmed,Online,Returned,address typo
+106,100105,12/22/2024,9/13/25,Sofia Carter,sofia.carter@corp.co,East,Philippines,Wireless Mouse,Accessories,7,310.1,0%,1992.52,Debit Card,E. Taylor,Retail,Returned,split shipment
+107,100106,12/18/2025,2025/02/13,Ella Thomas,ella.thomas@outlook.com,West,Canada,Ergonomic Mat,Office,7,"$1,491.37",25%,"$7,829.69",Cash,T. Brown,Marketplace,Pending,promo applied
+108,100107,10/8/24,2025-06-08, Ella Kim ,ella.kim@outlook.com,emea,USA,Wireless Mouse,Accessories,20,"$1,437.49",15%," 24,437.33 ",Credit Card,N. Khan,phone,Shipped,"split shipment, follow-up"
+109,100108,2024-05-14,2024/04/13,B. Martinez,b.martinez @ yahoo.com,emea,Singapore,USB-C Hub,Accessories,6,642.83,15%," 3,278.43 ",Credit Card,N. Khan,Partner,on hold,promo applied
+110,100109,2025-10-27,03/11/2026,Ethan Martinez,ethan.martinez@gmail.com,East,Mexico,Printer Ink,Office,9,395.48,0%,"3,559",Cash,P. Singh,phone,Complete,address typo
+111,100110,2026-01-31,2024-06-20,Sofia Davis,sofia.davis@outlook.com,Central,Singapore,Ergonomic Mat,Office,15,1448.70,15%,18470.92,Debit Card,A. Wilson,Online,Complete,rush order
+112,ORD-100111,20-Jun-2025,2024-12-22,Amelia Lopez,amelia.lopez@corp.co,West,Mexico,Noise Cancel Headphones,Electronics,8,1423.3,20%,"9,109",Cash,S. Ahmed,Web,Returned,CHECK
+113,100112,"Feb 21, 2026","Oct 06, 2024",Emily Brown,emily.brown@gmail.com,N. America,Australia,Webcam HD,Electronics,7,1075.83,25%,5648.11,PayPal,S. Ahmed,Retail,on hold,late payment
+114,100113,2025/04/26,2024-09-14,Aria Thomas,aria.thomas@gmail.com,Central,Singapore,Stading Desk,Furniture,8,59.22,0.00,473.76,Credit Card,T. Brown,in-store,Cancelled,customer requested callback
+115,100114,08-Dec-2025,2025-01-16,E. Davis,,EMEA,Germany,Laptop Pro 14,Electronics,12,$34.42,10%,371.74,Invoice,J. Reyes,Online,processing,duplicate?
+116,100115,21-Jul-2025,04/06/2025,Leo Garcia,leo.garcia@corp.co,West,Mexico,Laptop Pro 14,Electronics,15,855.25,20%,10263.00,Credit Card,S. Ahmed,phone,Shipped,manual entry
+117,100116,08/27/2025,2025-09-13, Harper Lopez ,harper.lopez@gmail.com,APAC,UK,Webcam HD,electronics,1,734.23,0%,$734.23,Credit Card,N. Khan,Retail,Complete,VIP
+118,100117,04/14/2025,2024-04-17, Logan Kim ,logan.kim@outlook.com,N. America,Philippines,Standing Desk,Furniture,4,1421.9,20%,4550.02,Invoice,R. Gomez,in-store,processing,split shipment
+119,100118,23-Jul-2025,04/07/2024,Amelia Thomas,amelia.thomas@yahoo.com,West,USA,Keyboard MMechanical,Accessories,5,332,10%,"1,492",Cash,T. Brown,Direct,processing,late payment
+120,100119,20-Jun-2025,"Jun 03, 2024",Liam Harris,liam.harris@corp.co,South,Australia,Laptop Pro 14,Electronics,2,349.36,0.25,524,Wire,T. Brown,Retail,on hold,late payment
+121,100120,12/22/2024,11/03/2025,Abigail Johnson,abigail.johnson @ company.com,latam,Mexico,Printer Ink,Office,4,408.19,15%,1387.85,Bank Transfer,J. Reyes,in-store,Complete,customer requested callback
+122,100121,2025-06-23,"Oct 18, 2024",elijah moore,elijah.moore@corp.co,N. America,Mexico,Standing Desk,Furniture,20, 730.74 ,0.25,"10,961",Wire,M. Chen,online,Complete,duplicate?
+123,100122,2024/08/29,10/03/2025,Evelyn Martin,evelyn.martin@outlook.com,N. America,India,Office Chair,Furniture,-3,465.73,15%,-1187.61,PayPal,T. Brown,Web,Shipped,VIP
+124,100123,28-May-2024,11-Jun-2024,Emily Lopez,emily.lopez@outlook.com,N. America,Philippines,Office Chair,Furniture,20,218,25%,3262.65,Invoice,J. Reyes,Partner,Delivered,first order
+125,100124,2025-04-30,2/4/24,Lucas Martin,lucas.martin@gmail.com,North America,Singapore,Standing Desk,Furniture,2,721.2,0.20,"1,154",Debit Card,T. Brown,Direct,on hold,promo applied
+126,100125,"Jan 31, 2025",02/21/2024,Mason Martin,mason.martin@yahoo.com,latam,USA,Ergonomic Mat,Office,9,$691.87,0.00,N/A,Credit Card,L. Patel,phone,Returned,price override
+127,100126,"Jun 20, 2025",06/08/2025,Mia Thomas,mia.thomas @ outlook.com,EMEA,France,Notebook Pack,Office,6,1361.86,5%,7762.60,PayPal,S. Ahmed,Partner,Pending,promo applied
+128,100127,2024-07-31,2025-10-31,Evelyn Moore,evelyn.moore@yahoo.com,LATAM,Brazil,Laptop Pro 14,Electronics,12,622.3,0%,8038.50,Debit Card,J. Reyes,Retail,Returned,first order
+129,100128,08-Aug-2025,"Mar 31, 2024",James Wilson,,EMEA,France,Wireless Mouse,Accessories,8,"1,046",10%,7528.25,Invoice,L. Patel,Marketplace,Returned,promo applied
+130,100129,12/03/2025,2025/08/06,Emma Johnson,emma.johnson@gmail.com,N. America,Philippines,Keyboard Mechanical,Accessories,-1,1038.8,0.10,N/A,Credit Card,N. Khan,in-store,processing,duplicate?
+131,100130,2026/03/12,12/28/2025,James White,james.white@outlook.com,East,Canada,Standing Desk,Furniture,3, 58.39 ,15%,149,cash,T. Brown,Web,Cancelled,promo applied
+132,100131,2024/03/30,"Apr 16, 2024", Isabella Lopez ,isabella.lopez@yahoo.com,apac,UK,Wireless Mouse,Accessories,4,$695.54,0.25,,Bank Transfer,R. Gomez,Direct,Returned,customer requested callback
+133,100132,05-Feb-2025,"Aug 30, 2025", James Martinez ,james.martinez@corp.co,APAC,Canada,Notebook Pack,Office,5, 516.04 ,15%,2370.07,Debit Card,E. Taylor,Direct,processing,address typo
+134,100133,05/10/2024,02-Jan-2026,Emily Martinez,emily.martinez@corp.co,East,Singapore,Keyboard Mechanical,Accessories,8,109,0%,874.08,Wire,P. Singh,phone,Returned,customer requested callback
+135,100134,28-Feb-2026,2025-11-08,Mia Patel,mia.patel@corp.co,emea,Brazil,Notebook Pack,Office,8, 157.31 ,15%,1069.71,Cash,N. Khan,Partner,Shipped,first order
+136,100135,28-Aug-2024,10/03/2025,Henry Carter,henry.carter@gmail.com,West,USA,Webcam HD,Electronics,6,"1,452",0%,"$8,713.38",Bank Transfer,S. Ahmed,in-store,Cancelled,split shipment
+137,100136,"Aug 14, 2025",12/31/2025, Olivia Patel ,olivia.patel@gmail.com,latam,Brazil,Keyboard Mechanical,Accessories,7,688.14,15%,"$4,094.43",Debit Card,R. Gomez,in-store,PROCESSING,manual entry
+138,100137,2024-10-28,"Sep 04, 2025",Sofia Patel,sofia.patel@outlook.com,North America,Singapore,Webcam HD,Electronics,9,709.68,0.20,5109.70,Credit Card,P. Singh,Partner,Shipped,duplicate?
+139,100138,6/6/24,"Feb 28, 2026",Leo Kim,leo.kim@corp.co,East,UK,Ergonomic Mat,Office,5, 363.46 ,0.05,1726.43,Cash,J. Reyes,Marketplace,Pending,rush order
+140,ORD-100139,09/18/2024,2026-03-03,Ava Davis,,N. America,Philippines,Noise Cancel Headphones,Electronics,-3,960.49,15%,-2449.25,Credit Card,R. Gomez,Partner,Cancelled,duplicate?
+141,100140,2025-04-23,04/10/2025,Emily Johnson,emily.johnson@corp.co,EMEA,Brazil,Printer Ink,Office,3,1148.62,25%," 2,584.39 ",Credit Card,L. Patel,Retail,processing,first order
+142,100141,"Feb 03, 2025",05-Feb-2025,Ella Anderson,ella.anderson@gmail.com,West,Canada,Printer Ink,Office,-3,1094.59,15%,N/A,Bank Transfer,M. Chen,phone,Complete,
+143,ORD-100142,2025-10-09,"Feb 07, 2024", Abigail Lopez ,abigail.lopez@corp.co,LATAM,UK,Noise Cancel Headphones,Electronics,-2,$995.17,10%,"-1,791",Card,N. Khan,Web,Complete,
+144,100143,2025/08/28,2024/04/27,Leo Harris,leo.harris@outlook.com,Central,Brazil,Wireless Mouse,Accessories,1,$977.39,0%,939.7,Debit Card,R. Gomez,phone,Cancelled,duplicate?
+145,100144,2025/03/02,2025-05-03,Mia Thomas,mia.thomas@gmail.com,emea,Australia,Ergonomic Mat,Office,20,"1,321",0%,26417.60,Credit Card,P. Singh,Partner,Complete,MANUAL ENTRY
+146,100145,08/02/2024,2026-04-05,Benjamin White,benjamin.white@company.com,West,USA,Noise Cancel Headphones,Electronics,4,$234.04,15%, 795.74 ,Debit Card,N. Khan,Online,Pending,rush order
+147,100146,"Dec 09, 2024",2024-03-03,Ethan Taylor,ethan.taylor@yahoo.com,South,UK,Wireless Mouse,Accessories,4,689,15%,2342.70,Cash,T. Brown,Marketplace,on hold,manual entry
+148,100147,26-Apr-2025,12-Mar-2025,Grace Thomas,grace.thomas@corp.co,LATAM,Singapore,Notebook Pack,Office,7,1339.03,0.20," 7,498.57 ",Credit Card,M. Chen,Direct,Delivered,price override
+149,100148,03-Oct-2024,"Mar 25, 2026",Elijah Thomas,elijah.thomas@outlook.com,East,Philippines,Notebook Pack,Office,8,$14.03,25%,,Invoice,E. Taylor,Online,processing,CHECK
+150,100149,"Apr 26, 2025","Jun 30, 2025",Sofia Moore,,latam,Germany,Ergonomic Mat,Office,6,$409.83,25%,"$1,797.32",Debit Card,M. Chen,in-store,Delivered,first order
+151,100150,16-Mar-2026,15-Dec-2025,Jack White,jack.white@yahoo.com,apac ,USA,Noise Cancel Headphones,Electronics,5, 44.79 ,0.05,212.75,Cash,S. Ahmed,Web,Pending,customer requested callback
+152,100151,2024-11-04,5/27/25,A. Garcia,,West,Singapore,Wireless Mouse,Accessories,3,"1,064",25%,"$2,394.49",Cash,N. Khan,Web,processing,manual entry
+153,100152,9/11/25,"Jan 05, 2025",Sophia Thomas,sophia.thomas@corp.co,LATAM,France,Monitor 27in,Electronics,-3," 1,275.98 ",25%,"$-2,870.95",Invoice,R. Gomez,Web,on hold,late payment
+154,100153,2024/05/20,2024-10-24, Emily Patel ,emily.patel @ outlook.com,East,Canada,USB-C Hub,Accessories,10,$143.61,15%,1220.69,Credit Card,T. Brown,in-store,Returned,
+155,100154,2024/05/29,2024-05-19,Noah Martin,noah.martin@company.com,West,Philippines,Ergonomic Mat,Office,12," 1,045.04 ",0%,12540.48,Bank Transfer,E. Taylor,Retail,PROCESSING,duplicate?
+156,100155,2025/12/30,4/27/24,Ava Garcia,ava.garcia@gmail.com,APAC,Canada,Monitor 27in,Electronics,4,341.02,0.05,"1,296",Cash,R. Gomez,in-store,Pending,"price override, follow-up"
+157,100156,"Feb 14, 2024",2026-02-12, Sophia Davis ,sophia.davis @ yahoo.com,EMEA,Canada,Office Chair,Furniture,1,1138.9,0%,"1,175",Debit Card,J. Reyes,Marketplace,Cancelled,promo applied
+158,100157,2024-12-29,2024/08/22,Logan Johnson,logan.johnson@company.com,North America,India,USB-C Hub,Accessories,2," 1,381.67 ",25%,2072.51,Credit Card,L. Patel,Marketplace,COMPLETE,rush order
+159,100158,6/21/24,2024/12/13,Chloe Moore,chloe.moore@gmail.com,Central,Philippines,Monitor 27in,Electronics,2,790,25%,"$1,184.58",Cash,L. Patel,in-store,Cancelled,duplicate?
+160,100159,03/22/2026,05/25/2025, Olivia Carter ,olivia.carter@outlook.com,North America ,UK,Laptop Pro 14,Electronics,7,498.5,10%,3140.61,Debit Card,A. Wilson,Online,Shipped,first order
+161,100160,2024-10-18,02/17/2024,Evelyn Kim,evelyn.kim@gmail.com,emea,UAE,Noise Cancel Headphones,Electronics,8,244.59,0%," 1,956.72 ",Debit Card,A. Wilson,Marketplace,Shipped,first order
+162,100161,22-Nov-2025,2026-02-23,abigail lopez,abigail.lopez@yahoo.com,South,France,Printer Ink,Office,1,886.9,10%,798,Bank Transfer,E. Taylor,Retail,on hold,late payment
+163,100162,2025/10/04,"Aug 14, 2025",Evelyn Anderson,evelyn.anderson@gmail.com,West,Australia,Wireless Mouse,Accessories,12,309.71,15%,"3,159",Credit Card,P. Singh,phone,Complete,split shipment
+164,100163,10/06/2024,03-Apr-2026,Isabella Smith,isabella.smith@outlook.com,APAC,Germany,Ergonomic Mat,Office,1,"$1,242.92",15%,"$1,056.48",Credit Card,J. Reyes,in-store,Shipped,rush order
+165,100164,2025-03-09,08/08/2024,Emma Jackson,emma.jackson@gmail.com,West,UAE,Ergonomic Mat,Office,2,193.95,10%,$349.11,Invoice,M. Chen,Marketplace,Shipped,split shipment
+166,100165,9/18/24,2026-02-14,Leo Nguyen,leo.nguyen@outlook.com,West,Philippines,Printer Ink,Office,15,"$1,220.63",0%,,Cash,J. Reyes,phone,Complete,rush order
+167,100166,9/12/24,27-Oct-2025,Emily White,emily.white@yahoo.com,apac,Philippines,Noise Cancel Headphones,Electronics,3," 1,189.04 ",5%,3388.76,PayPal,L. Patel,Partner,processing,duplicate?
+168,100167,6/22/25,2025-04-10,Sofia Martin,sofia.martin @ outlook.com,latam,UK,Wireless Mouse,Accessories,1,650.21,10%,N/A,Card,L. Patel,Web,Cancelled,first order
+169,100168,3/1/24,4/28/25,Elijah Brown,elijah.brown@outlook.com,Central,UK,Printer Ink,Office,6,$603.56,5%,3440.3,Wire,L. Patel,phone,shipped,duplicate?
+170,100169,2024/11/19,6/4/24,Lucas Kim,lucas.kim@corp.co,West,India,Office Chair,Furniture,6,433.0,10%,2338.15,Credit Card,S. Ahmed,Direct,COMPLETE,address typo
+171,100170,2025/03/02,11/25/2025,Olivia Kim,olivia.kim@yahoo.com,APAC,India,Standing Desk,Furniture,9,850.1,25%," 5,738.24 ",PayPal,R. Gomez,Retail,Delivered,CHECK
+172,100171,2024/08/01,10/19/24, Leo Harris ,leo.harris@corp.co,North America,India,Laptop Pro 14,Electronics,2,$908.21,0%," 1,816.42 ",PayPal,L. Patel,phone,Returned,VIP
+173,100172,"Nov 03, 2024",11/04/2024,harper patel,harper.patel@corp.co,apac,Philippines,Monitor 27in,Electronics,15,$749.04,25%,"$8,426.70",Wire,E. Taylor,Retail,Delivered,first order
+174,,2024-01-19,25-Jun-2024,Noah Anderson,noah.anderson@outlook.com,apac ,UAE,USB-C Hub,Accessories,10,519.9,5%,5415.46,Cash,A. Wilson,Marketplace,Complete,rush order
+175,ORD-100174,2025-02-05,10/8/25,Ethan Patel,ethan.patel@yahoo.com,EMEA,UK,Noise Cancel Headphones,Electronics,3,675,15%,"1,720",Credit Card,T. Brown,in-store,RETURNED,split shipment
+176,100175,2/3/25,2025/10/31,Ava Smith,ava.smith@gmail.com,N. America,Germany,Standing Desk,Furniture,10,517,0.20,"$4,133.28",Card,M. Chen,Web,Pending,promo applied
+177,100176,"Dec 07, 2025",12/25/25,mia jackson,mia.jackson@gmail.com,LATAM,Canada,Wireless Mouse,Accessories,9,395.6,0.10,3204.7,Credit Card,E. Taylor,Retail,Delivered,split shipment
+178,100177,2025-06-26,4/2/26,Emma Johnson,emma.johnson@outlook.com,Central,Singapore,Keyboard Mechanical,accessories,5,139,10%,625,Credit Card,S. Ahmed,in-store,processing,PRICE OVERRIDE
+179,100178,21-Oct-2025,03/19/2026,Aria Jackson,aria.jackson@yahoo.com,N. America,France,Keyboard Mechanical,Accessories,15,1364.94,0.00,"20,474",Credit Card,M. Chen,Web,on hold,split shipment
+180,100179,2024-11-01,"Dec 14, 2024",Chloe White,chloe.white@corp.co,South,Mexico,Standing Desk,Furniture,2,1264.28,10%,2275.70,PayPal,P. Singh,Web,Cancelled,price override
+181,100180,02-Mar-2025,2025-05-12,Chloe Garcia,chloe.garcia@yahoo.com,N. America,Mexico,Noise Cancel Headphones,Electronics,20, 404.38 ,15%,"6,874",Credit Card,N. Khan,in-store,Delivered,price override
+182,100181,11/13/24,2026/03/12,Isabella Davis,isabella.davis@corp.co,North America,France,Office Chair,Furniture,5," 1,230.86 ",15%,,Card,N. Khan,in-store,Pending,promo applied
+183,,1/20/24,2024/07/04,Aria Carter,aria.carter@gmail.com,apac,Mexico,Notebook Pack,Office,2,932.63,0.20,"$1,492.21",Credit Card,A. Wilson,Marketplace,complete,address typo
+184,100183,2024-05-03,04-Sep-2025,E. Patel,e.patel@gmail.com,East,uk,Keyboard Mechanical,accessories,1,455.5,0%,455.46,invoice,J. Reyes,Web,on hold,address typo
+185,100184,9/27/25,1/2/24,Isabella Harris,isabella.harris@yahoo.com,APAC,Singapore,Wireless Mouse,Accessories,9,1175.65,0.20,,Bank Transfer,R. Gomez,phone,Returned,manual entry
+186,100185,2024-01-03,01/11/2024,Logan Lopez,logan.lopez@gmail.com,latam,UAE,Monitor 27in,Electronics,5,1474.74,10%,6636.33,Credit Card,M. Chen,Retail,Complete,duplicate?
+187,100186,2025-12-24,2025/10/16,Ava Brown,ava.brown@gmail.com,LATAM,Canada,USB-C Hub,Accessories,10,"$1,214.92",5%,"$11,541.74",PayPal,P. Singh,Direct,Complete,rush order
+188,100187,01/08/2026,03/07/2025,Lucas White,lucas.white@company.com,apac,USA,Laptop Pro 14,Electronics,6,"$1,492.72",10%,"$8,060.69",wire,T. Brown,Online,processing,"rush order, follow-up"
+189,100188,2025-12-11,04/02/2026,James Nguyen,james.nguyen@yahoo.com,emea,Brazil,Webcam HD,Electronics,8, 942.52 ,20%," 6,032.13 ",wire,L. Patel,Online,DELIVERED,first order
+190,100189,2024-09-05,05/11/2024,Owen Carter,owen.carter@yahoo.com,North America,Brazil,Monitor 27in,Electronics,-1,1357.70,5%,"$-1,289.82",Card,S. Ahmed,Partner,processing,late payment
+191,100190,2026-03-19,"Jan 05, 2024",Ethan Johnson,ethan.johnson@yahoo.com,latam,UAE,Monitor 27in,Electronics,10," 1,279.79 ",0.20,"$10,238.32",Bank Transfer,A. Wilson,marketplace,Cancelled,first order
+192,100191,2024-08-03,1/17/25,Ethan Johnson,ethan.johnson@yahoo.com,East,Mexico,Standing Desk,Furniture,4,43.98,0.10,$163.95,PayPal,M. Chen,Retail,on hold,promo applied
+193,100192,08-Feb-2026,"Apr 21, 2025",Olivia Lopez,olivia.lopez@company.com,N. America ,Brazil,Printer Ink,Office,8,133.13,0.15,905.28,Cash,N. Khan,in-store,Complete,manual entry
+194,100193,2024-11-20,"Mar 29, 2025",Grace Wilson,grace.wilson@company.com,Central,Mexico,Wireless Mouse,Accessories,6,73.22,20%,$351.46,Bank Transfer,L. Patel,Retail,Delivered,rush order
+195,100194,2024-08-20,2024/08/28,Benjamin White,benjamin.white@gmail.com,East,Australia,Laptop Pro 14,Electronics,7,"$1,139.62",0%,7977.3,Bank Transfer,R. Gomez,Retail,Complete,first order
+196,100195,2025-08-10,02/05/2025,Sophia Anderson,sophia.anderson@company.com,West,singapore,Keyboard Mechanical,Accessories,-1,"$1,384.15",0.05,"-1,315",Debit Card,L. Patel,in-store,processing,PROMO APPLIED
+197,100196,18-Mar-2025,11-Sep-2025,Elijah Nguyen,elijah.nguyen@gmail.com,South,Australia,Laptop Pro 14,Electronics,3,$204.16,15%, 567.99 ,Card,S. Ahmed,Online,Complete,rush order
+198,100197,"Jun 10, 2024",2024-10-26,Aria Davis,aria.davis@gmail.com,emea,India,Office Chair,Furniture,7,"$1,367.32",5%,,Debit Card,E. Taylor,phone,Cancelled,VIP
+199,100198,2024/10/12,09/14/2025,James Taylor,james.taylor@gmail.com,APAC,singapore,Keyboard Mechanical,Accessories,12,733.32,0%,8799.8,PayPal,L. Patel,Online,on hold,address typo
+200,100199,2025-11-11,2025/03/02,Ava Nguyen,ava.nguyen@company.com,LATAM,Germany,Standing Desk,Furniture,-1,1484.06,0.10,-1335.65,Debit Card,A. Wilson,phone,Cancelled,customer requested callback
+201,100200,02/28/2026,10/13/25,Ethan Anderson,ethan.anderson@yahoo.com,latam,Mexico,Ergonomic Mat,Office,20,"$1,277.49",5%,24272.31,Bank Transfer,A. Wilson,in-store,Delivered,split shipment
+202,,2026-01-20,7/7/25,Ethan Garcia,ethan.garcia@gmail.com,Central,India,Printer Ink,Office,6,484.5,0%,N/A,Invoice,E. Taylor,phone,Cancelled,promo applied
+203,100202,03/22/2024,28-Apr-2025,Ethan Brown,ethan.brown@corp.co,latam,Germany,Keyboard Mechanical,Accessories,4,$913.51,10%,"3,289",Wire,J. Reyes,in-store,Pending,first order
+204,100203,2025/08/25,08-May-2024,James Garcia,james.garcia@gmail.com,North America,Mexico,Standing Desk,Furniture,15,743.28,0.15,"$9,476.82",Card,E. Taylor,Marketplace,on hold,DUPLICATE?
+205,100204,03/09/2025,12/10/25,Elijah Garcia,,APAC,USA,Ergonomic Mat,Office,2,970.86,15%," 1,650.46 ",Debit Card,M. Chen,phone,on hold,"duplicate?, follow-up"
+206,ORD-100205,2026/02/06,"Sep 23, 2024",Aria Anderson,aria.anderson@yahoo.com,APAC,Singapore,Printer Ink,Office,3,306.65,5%,874,debit card,L. Patel,Retail,PENDING,VIP
+207,100206,2025-02-12,2024-12-31,Owen Carter,owen.carter @ outlook.com,Central,UAE,Webcam HD,Electronics,20, 651.03 ,10%,11718.54,Debit Card,J. Reyes,Partner,on hold,split shipment
+208,100207,2025-11-05,2025-01-30,James Carter,james.carter@gmail.com,apac,UAE,Laptop Pro 14,Electronics,4,607.45,0.20," 1,943.84 ",Card,E. Taylor,Web,shipped,promo applied
+209,100208,09/07/2025,"Jan 05, 2026",James Taylor,,apac,Canada,Standing Desk,Furniture,12,807.40,25%,7266.60,Debit Card,L. Patel,Direct,on hold,late payment
+210,100209,12-Aug-2024,"Sep 08, 2025",Abigail Johnson,abigail.johnson@company.com,apac,UK,Keyboard Mechanical,Accessories,9, 891.07 ,0%,"$8,019.63",Debit Card,E. Taylor,Web,Shipped,late payment
+211,100210,2026-02-14,"Jan 15, 2026",Owen Brown,owen.brown@gmail.com,Central,India,Laptop Pro 14,Electronics,7,1224.74,0.05,8144.52,Card,L. Patel,Online,ON HOLD,duplicate?
+212,100211,2026-01-09,09/04/2024,Owen Garcia,owen.garcia @ outlook.com,North America ,Canada,Keyboard Mechanical,Accessories,6,279,0%,1675.74,Card,M. Chen,phone,Pending,duplicate?
+213,,07-Feb-2025,27-Jun-2025,Lucas Kim,lucas.kim@company.com,latam,Australia,Office Chair,Furniture,5, 159.97 ,0%,$799.85,PayPal,M. Chen,direct,Delivered,manual entry
+214,100213,11/16/24,27-Dec-2024,Logan Davis,logan.davis@corp.co,apac,USA,Webcam HD,Electronics,4,"$1,419.97",0.20,"$4,543.90",Cash,S. Ahmed,Direct,Shipped,customer requested callback
+215,100214,2024-11-19,09/11/2025,Lucas Anderson,lucas.anderson@outlook.com,latam,france,Office Chair,furniture,12,299,10%,"$3,225.20",Cash,R. Gomez,Marketplace,on hold,promo applied
+216,100215,2025-02-16,"Jan 11, 2024", Owen Moore ,owen.moore@corp.co,N. America,France,Monitor 27in,Electronics,-1, 266.07 ,15%,-226,Invoice,J. Reyes,Web,Pending,price override
+217,100216,3/10/25,20-May-2024,Sophia Davis,sophia.davis@gmail.com,East,Canada,Wireless Mouse,Accessories,-3,369,0%,"-1,161",Wire,J. Reyes,Direct,Delivered,price override
+218,100217,10/24/2024,"Aug 07, 2024",Chloe Jackson,chloe.jackson@gmail.com,North America,Australia,Office Chair,Furniture,8,$567.45,0%," 4,539.60 ",Card,N. Khan,online,Returned,
+219,100218,05/23/2024,2025-01-03,Chloe Garcia,chloe.garcia@company.com,Central,Australia,Noise Cancel Headphones,Electronics,6,$649.37,5%," 3,701.41 ",PayPal,J. Reyes,Marketplace,Pending,duplicate?
+220,100219,2024/10/15,"Sep 11, 2024", Leo Taylor ,leo.taylor@outlook.com,East,Mexico,Wireless Mouse,Accessories,1,363.92,0.25,,Wire,T. Brown,Web,Returned,customer requested callback
+221,100220,04/22/2024,2024-12-26,Ethan Garcia,ethan.garcia@yahoo.com,South,Australia,Ergonomic Mat,Office,9,$954.37,5%,8159.86,Cash,T. Brown,Marketplace,PENDING,address typo
+222,100221,"Nov 01, 2025","Apr 12, 2024",Owen Wilson,owen.wilson@company.com,apac,France,Ergonomic Mat,Office,4, 141.80 ,0%,567.20,PayPal,E. Taylor,Direct,Complete,
+223,100222,06/09/2025,2025/06/06,Noah Moore,noah.moore@company.com,West,India,Webcam HD,Electronics,3,1434.23,0.00,4302.7,Bank Transfer,S. Ahmed,Online,Returned,manual entry
+224,100223,"Dec 23, 2025",02/23/2025,sophia davis,sophia.davis@company.com,APAC,France,Office Chair,Furniture,-1,"1,484",5%,"-1,367",PayPal,L. Patel,Direct,Shipped,late payment
+225,100224,29-Jun-2024,01/17/2026,Grace Thomas,,South,UK,USB-C Hub,Accessories,8," 1,092.71 ",10%,"$7,867.51",PayPal,M. Chen,Direct,Pending,"rush order, follow-up"
+226,100225,02/16/2026,17-Jun-2024, Ella Nguyen ,ella.nguyen@company.com,emea,USA,Wireless Mouse,Accessories,20," 1,436.94 ",0%," 28,738.80 ",Credit Card,J. Reyes,retail,Returned,rush order
+227,100226,2025/11/26,2025/12/05,Mason Kim,mason.kim@corp.co,West,Singapore,Wireless Mouse,Accessories,2,$188.11,0.00,376.22,Cash,R. Gomez,in-store,Delivered,price override
+228,100227,27-Jan-2025,01-Jul-2025, Leo Martinez ,leo.martinez@company.com,South,Singapore,Monitor 27in,Electronics,6,728.2,15%,3713.62,Bank Transfer,E. Taylor,phone,Delivered,price override
+229,100228,19-Dec-2025,2025-05-04,Olivia Davis,olivia.davis@company.com,LATAM,Germany,Webcam HD,Electronics,-1,186,25%,-139.84,PayPal,S. Ahmed,phone,PENDING,address typo
+230,100229,2025-01-21,09/26/2025,Emily Smith,emily.smith@yahoo.com,Central,Mexico,Laptop Pro 14,Electronics,15,1379.70,20%," 16,556.40 ",Invoice,N. Khan,in-store,Delivered,duplicate?
+231,100230,2024-02-16,2024/11/13, Mia White ,mia.white@corp.co,West,Germany,Standing Desk,Furniture,9,1394.65,5%,"11,924",PayPal,R. Gomez,phone,Cancelled,PRICE OVERRIDE
+232,100231,03/15/2026,2025/10/01,olivia thomas,olivia.thomas@company.com,apac,Philippines,Printer Ink,Office,3,251.64,20%,604,Card,S. Ahmed,Retail,on hold,rush order
+233,100232,"Feb 22, 2025",2025/03/28,Henry Wilson,henry.wilson@yahoo.com,West,UAE,Wireless Mouse,Accessories,5,$669.76,0.05,"$3,181.36",Credit Card,L. Patel,in-store,PROCESSING,manual entry
+234,100233,"May 12, 2025",2024-04-28,Elijah Patel,elijah.patel@company.com,Central,Canada,Noise Cancel Headphones,Electronics,2,173.22,0.15,294.47,Wire,P. Singh,Online,COMPLETE,
+235,100234,2025/05/01,12/15/25, Lucas Taylor ,lucas.taylor@corp.co,LATAM,Philippines,Notebook Pack,Office,5, 91.97 ,15%,390.87,paypal,M. Chen,Direct,Shipped,VIP
+236,100235,2025-01-21,7/15/24,Harper Martinez,harper.martinez@outlook.com,APAC,Philippines,Laptop Pro 14,Electronics,8,$872.63,0%,"$6,981.04",Card,N. Khan,Retail,processing,first order
+237,100236,12-Apr-2024,2024/02/04,Isabella Anderson,isabella.anderson@outlook.com,EMEA,Canada,Notebook Pack,Office,20,145,0%,"$2,907.60",Card,T. Brown,Retail,Complete,rush order
+238,100237,2024-09-04,2025-10-22,Isabella Anderson,isabella.anderson@company.com,North America,USA,Laptop Pro 14,Electronics,3,1263.07,0.20,3031.37,Invoice,A. Wilson,Partner,on hold,split shipment
+239,100238,"Jan 01, 2025",16-Aug-2024,noah patel,noah.patel@outlook.com,North America,Brazil,Laptop Pro 14,Electronics,15,"$1,458.93",20%,17507.16,Debit Card,L. Patel,Online,on hold,promo applied
+240,ORD-100239,"Nov 06, 2025",2/3/24,Grace Johnson,grace.johnson@company.com,Central,philippines,Noise Cancel Headphones,Electronics,2,637,10%,1146.28,Bank Transfer,M. Chen,Web,Shipped,manual entry
+241,100240,2026-01-04,2026-03-24,Olivia Martinez,olivia.martinez@gmail.com,N. America,Philippines,Standing Desk,Furniture,5,"$1,215.81",15%,5167.19,Cash,A. Wilson,in-store,Complete,VIP
+242,100241,02-Dec-2024,2024-11-26,Emily Jackson,emily.jackson@company.com,South,UK,Laptop Pro 14,Electronics,6,$332.19,10%,N/A,Cash,E. Taylor,Retail,Cancelled,price override
+243,100242,16-Feb-2025,"Jun 25, 2025",Liam Martinez,liam.martinez@gmail.com,emea,Australia,Wireless Mouse,Accessories,4,436.13,0.25,1308.39,Cash,L. Patel,phone,Delivered,VIP
+244,100243,2024/02/23,2024-04-24,Sophia Nguyen,sophia.nguyen@yahoo.com,latam,India,Office Chair,Furniture,7,$142.97,0.25, 750.59 ,Card,S. Ahmed,Partner,on hold,rush order
+245,100244,"Mar 02, 2024",25-Apr-2025,Lucas Lopez,lucas.lopez@gmail.com,West,India,Noise Cancel Headphones,Electronics,2,1255.29,5%,2385.05,PayPal,N. Khan,Web,processing,split shipment
+246,100245,2024-12-28,05/30/2025,Benjamin Harris,benjamin.harris@outlook.com,EMEA,Germany,Office Chair,Furniture,1,290,0%,$290.30,Cash,T. Brown,phone,processing,customer requested callback
+247,100246,2025-09-02,"Jul 09, 2024",Sophia Patel,sophia.patel@company.com,latam,Australia,USB-C Hub,Accessories,7,339.2,25%,1780.7,Invoice,S. Ahmed,direct,Returned,duplicate?
+248,100247,07-Nov-2024,01/23/2026,Ava Martin,ava.martin@corp.co,LATAM,UAE,Noise Cancel Headphones,Electronics,-1,856.09,0.10,-770.48,Invoice,L. Patel,Marketplace,processing,"split shipment, follow-up"
+249,100248,6/23/25,24-Dec-2024,Evelyn Carter,evelyn.carter@outlook.com,LATAM,India,Notebook Pack,Office,2," 1,432.76 ",25%,"2,149",Invoice,P. Singh,Online,Returned,MANUAL ENTRY
+250,100249,2024/09/14,3/16/26,Emily White,emily.white@gmail.com,West,usa,USB-C Hub,accessories,-2,"1,240",0%,N/A,Wire,T. Brown,Partner,Delivered,manual entry
+251,ORD-100250,23-Mar-2025,12/12/25,Mia Harris,mia.harris@outlook.com,LATAM,France,Monitor 27in,Electronics,3,309,10%,834,Wire,A. Wilson,in-store,Complete,address typo
+252,100251,09-Apr-2024,"Dec 06, 2024",Chloe Harris,,South,Philippines,Laptop Pro 14,Electronics,1,"1,147",20%, 836.12 ,Card,E. Taylor,Partner,Shipped,PROMO APPLIED
+253,100252,"Nov 28, 2025","May 07, 2024", Emma Jackson ,emma.jackson@corp.co,N. America,UAE,Standing Desk,furniture,-1,458.29,0.15, -389.55 ,Card,N. Khan,Direct,Cancelled,late payment
+254,100253,5/30/25,2025-06-22,Mason Carter,mason.carter@outlook.com,emea,UAE,Laptop Pro 14,Electronics,1,539.8,5%,512.84,PayPal,N. Khan,Marketplace,processing,late payment
+255,100254,2024-08-25,06/28/2024, Logan Martinez ,logan.martinez@outlook.com,emea,Brazil,Monitor 27in,Electronics,-1,"1,280",5%,"$-1,215.83",Card,M. Chen,Online,DELIVERED,VIP
+256,100255,"Mar 14, 2024",16-Jan-2026,Sophia Johnson,sophia.johnson@gmail.com,LATAM,Canada,Keyboard Mechanical,Accessories,-3,155.15,0.00,$-465.45,PayPal,P. Singh,Marketplace,Complete,rush order
+257,100256,2025-04-27,2024-12-13,Isabella Martinez,isabella.martinez@yahoo.com,EMEA,Mexico,Monitor 27in,Electronics,10, 782.43 ,20%,6259.44,bank transfer,J. Reyes,Marketplace,shipped,address typo
+258,100257,2025-11-29,2025/05/09,Evelyn Garcia,evelyn.garcia@outlook.com,LATAM,Philippines,Laptop Pro 14,Electronics,6,463.5,5%,2786.5,Card,M. Chen,Partner,on hold,rush order
+259,100258,2025-02-11,3/20/24,abigail harris,abigail.harris@corp.co,North America,Canada,Laptop Pro 14,Electronics,1,280.72,0%, 280.72 ,Cash,N. Khan,Direct,processing,VIP
+260,100259,05/25/2025,1/29/25,Ethan Garcia,ethan.garcia@yahoo.com,LATAM,Canada,Webcam HD,Electronics,6," 1,184.45 ",0.00,"7,107",card,A. Wilson,phone,on hold,
+261,100134,28-Feb-2026,2025-11-08,Mia Patel,mia.patel@corp.co,emea,Brazil,Notebook Pack,Office,8, 157.31 ,15%,,Cash,N. Khan,Partner,Cancelled,first order dup
+262,100110,2026-01-31,2024-06-20,Sofia Davis,sofia.davis@outlook.com,Central,Singapore,Ergonomic Mat,Office,15,1448.70,15%,,Debit Card,A. Wilson,Online,Returned,rush order dup
+263,100014,2025-12-25,"Jun 19, 2025",Emily Kim,emily.kim@corp.co,South,Philippines,Ergonomic Mat,Office,-3,519.75,0.15," -1,325.36 ",Bank Transfer,R. Gomez,Web,Returned,rush order dup
+264,ORD-100174,2025-02-05,10/8/25,Ethan Patel,ethan.patel@yahoo.com,EMEA,UK,Noise Cancel Headphones,Electronics,3,675,15%,"1,720",Credit Card,T. Brown,in-store,RETURNED,split shipment
+265,100222,06/09/2025,2025/06/06,Noah Moore,noah.moore@company.com,West,India,Webcam HD,Electronics,3,1434.23,0.00,4302.7,Bank Transfer,S. Ahmed,Online,Delivered,manual entry dup
+266,100218,05/23/2024,2025-01-03,Chloe Garcia,chloe.garcia@company.com,Central,Australia,Noise Cancel Headphones,Electronics,6,$649.37,5%," 3,701.41 ",PayPal,J. Reyes,Marketplace,Delivered,duplicate? dup
+267,100029,06/08/2025,18-Oct-2024,Leo Lopez,leo.lopez@yahoo.com,APAC,UK,Ergonomic Mat,Office,20," 1,014.87 ",10%,,Bank Transfer,J. Reyes,Online,Shipped,late payment dup
+268,100055,15-Jun-2024,03-Feb-2025,Henry Moore,henry.moore@company.com,N. America,Brazil,Wireless Mouse,Accessories,-2,35.30,5%,-67.1,Invoice,E. Taylor,Retail,Cancelled,dup
+269,100198,2024/10/12,09/14/2025,James Taylor,james.taylor@gmail.com,APAC,singapore,Keyboard Mechanical,Accessories,12,733.32,0%,,PayPal,L. Patel,Online,Shipped,address typo
+270,100147,26-Apr-2025,12-Mar-2025,Grace Thomas,grace.thomas@corp.co,LATAM,Singapore,Notebook Pack,Office,7,1339.03,0.20," 7,498.57 ",Credit Card,M. Chen,Direct,Delivered,price override dup
+271,100237,2024-09-04,2025-10-22,Isabella Anderson,isabella.anderson@company.com,North America,USA,Laptop Pro 14,Electronics,3,1263.07,0.20,3031.37,Invoice,A. Wilson,Partner,Returned,split shipment
+272,100217,10/24/2024,"Aug 07, 2024",Chloe Jackson,chloe.jackson@gmail.com,North America,Australia,Office Chair,Furniture,8,$567.45,0%," 4,539.60 ",Card,N. Khan,online,Shipped,
