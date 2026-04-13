@@ -110,7 +110,7 @@ export default function Dashboard() {
       </section>
 
       <section className={styles.chartContainer}>
-        <h2 className={styles.chartTitle}>Temperature Trends</h2>
+        <h2 className={styles.chartTitle}>Temperature</h2>
         <div style={{ width: '100%', height: 'calc(100% - 3rem)' }}>
           <ResponsiveContainer>
             <LineChart data={chartData} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
