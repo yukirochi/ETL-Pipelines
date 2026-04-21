@@ -59,7 +59,37 @@ def clean_dates(df: pd.DataFrame) -> pd.DataFrame:
 
 def clean_region(df: pd.DataFrame) -> pd.DataFrame:
 
+    regions = ["North", 
+               "South", 
+               "East", 
+               "West", 
+               "Central",
+               'Northwest', 
+               'Southeast', 
+               'Northeast', 
+               'Southwest',
+               'midwest']
+    
+    for region in df['region'].unique():
+        if region not in regions:
+            # Find best matching region by similarity score. E.g., "Nort" matches "North" with ~89% similarity
+            best_match = max(regions, key=lambda r: fuzz.ratio(region, r)) 
+            #max return the highest value ex max(2, 3) returns 3 
+            # then this uses a lamba function to calculate the similarity score between the region and each of the 
+            # valid regions, and returns the region with the highest score as the best match.
+            if fuzz.ratio(region, best_match) >= 80:
+                df.loc[df['region'] == region, 'region'] = best_match
+            else:
+                df.loc[df['region'] == region, 'region'] = 'Unknown'
+    
+    df['region'] = df['region'].str.strip().str.title()
+    df['region'] = df['region'].apply(lambda x: 'Unknown' if pd.isna(x) else x)
     return df
+
+
+def clean_channel(df: pd.DataFrame) -> pd.DataFrame:
+    df['Channel'] = df['Channel'].apply(lambda x: 'unknown')
+    #appy fuzzing return unique values from the dataframe instead of listing it 
 
 df = read_csv(CSV_PATH)
 
@@ -68,6 +98,8 @@ df = clean_order_id(df)
 df = clean_invoice_id(df)
 
 df = clean_dates(df)
+
+df = clean_region(df)
 
 print(df.head(10))
 print(len(df)) #original length is 299
