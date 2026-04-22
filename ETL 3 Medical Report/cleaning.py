@@ -57,39 +57,42 @@ def clean_dates(df: pd.DataFrame) -> pd.DataFrame:
     df = df[~(df['delivery_date'] < df['ship_date'])]
     return df
 
+def find_best_match(values: pd.DataFrame) -> pd.DataFrame: #finding unique right spelled values in column
+    counts = values.value_counts()
+    unique_values = counts[counts >= 3].index.tolist()
+    return unique_values
+
+def match_spelling(col: pd.DataFrame, unique_values: list) -> pd.DataFrame:
+    for value in col.unique():
+        if value not in unique_values:
+            best_match = max(unique_values, key=lambda x: fuzz.ratio(value, x))
+
+            if  fuzz.ratio(value, best_match) >= 75:
+                df.loc[col == value, col] = best_match
+            else:
+                df.loc[col == value, col] = 'unknown'
+
 def clean_region(df: pd.DataFrame) -> pd.DataFrame:
 
-    regions = ["North", 
-               "South", 
-               "East", 
-               "West", 
-               "Central",
-               'Northwest', 
-               'Southeast', 
-               'Northeast', 
-               'Southwest',
-               'midwest']
-    
-    for region in df['region'].unique():
-        if region not in regions:
-            # Find best matching region by similarity score. E.g., "Nort" matches "North" with ~89% similarity
-            best_match = max(regions, key=lambda r: fuzz.ratio(region, r)) 
-            #max return the highest value ex max(2, 3) returns 3 
-            # then this uses a lamba function to calculate the similarity score between the region and each of the 
-            # valid regions, and returns the region with the highest score as the best match.
-            if fuzz.ratio(region, best_match) >= 80:
-                df.loc[df['region'] == region, 'region'] = best_match
-            else:
-                df.loc[df['region'] == region, 'region'] = 'Unknown'
-    
     df['region'] = df['region'].str.strip().str.title()
+    regions = find_best_match(df['region'])
+    
+    match_spelling(df['region'], regions)
+
     df['region'] = df['region'].apply(lambda x: 'Unknown' if pd.isna(x) else x)
     return df
 
 
 def clean_channel(df: pd.DataFrame) -> pd.DataFrame:
-    df['Channel'] = df['Channel'].apply(lambda x: 'unknown')
-    #appy fuzzing return unique values from the dataframe instead of listing it 
+    df['channel'] = df['channel'].str.strip().str.title()
+    
+    channels = find_best_match(df['channel'])
+
+    match_spelling(df['channel'], channels)
+    
+    return df
+        
+    #solve the error 
 
 df = read_csv(CSV_PATH)
 
@@ -101,6 +104,8 @@ df = clean_dates(df)
 
 df = clean_region(df)
 
-print(df.head(10))
+df = clean_channel(df)
+
+print(df.head(20))
 print(len(df)) #original length is 299
 
