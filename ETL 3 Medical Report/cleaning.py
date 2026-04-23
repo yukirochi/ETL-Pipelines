@@ -1,7 +1,10 @@
+from dbm import error
+
 import pandas as pd
 import sqlite3
 from thefuzz import fuzz
 from pathlib import Path
+from functions import find_best_match, match_spelling
 
 BASE_DIR = Path(__file__).resolve().parent
 CSV_PATH = BASE_DIR / "medical report.csv"
@@ -57,27 +60,13 @@ def clean_dates(df: pd.DataFrame) -> pd.DataFrame:
     df = df[~(df['delivery_date'] < df['ship_date'])]
     return df
 
-def find_best_match(values: pd.DataFrame) -> pd.DataFrame: #finding unique right spelled values in column
-    counts = values.value_counts()
-    unique_values = counts[counts >= 3].index.tolist()
-    return unique_values
-
-def match_spelling(col: pd.DataFrame, unique_values: list) -> pd.DataFrame:
-    for value in col.unique():
-        if value not in unique_values:
-            best_match = max(unique_values, key=lambda x: fuzz.ratio(value, x))
-
-            if  fuzz.ratio(value, best_match) >= 75:
-                df.loc[col == value, col] = best_match
-            else:
-                df.loc[col == value, col] = 'unknown'
 
 def clean_region(df: pd.DataFrame) -> pd.DataFrame:
 
     df['region'] = df['region'].str.strip().str.title()
     regions = find_best_match(df['region'])
     
-    match_spelling(df['region'], regions)
+    match_spelling(df, 'region', regions)
 
     df['region'] = df['region'].apply(lambda x: 'Unknown' if pd.isna(x) else x)
     return df
@@ -88,11 +77,17 @@ def clean_channel(df: pd.DataFrame) -> pd.DataFrame:
     
     channels = find_best_match(df['channel'])
 
-    match_spelling(df['channel'], channels)
+    # Pass DataFrame, column name (string), and unique values
+    match_spelling(df, 'channel', channels)
     
     return df
         
     #solve the error 
+
+def clean_customer_type(df: pd.DataFrame) -> pd.DataFrame:
+    
+    #fuzz match customer types and update them in the DataFrame
+    return df
 
 df = read_csv(CSV_PATH)
 
@@ -106,6 +101,8 @@ df = clean_region(df)
 
 df = clean_channel(df)
 
-print(df.head(20))
+print(df['channel'].tail(30))
 print(len(df)) #original length is 299
+
+
 
