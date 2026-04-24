@@ -64,9 +64,8 @@ def clean_dates(df: pd.DataFrame) -> pd.DataFrame:
 def clean_region(df: pd.DataFrame) -> pd.DataFrame:
 
     df['region'] = df['region'].str.strip().str.title()
-    regions = find_best_match(df['region'])
-    
-    match_spelling(df, 'region', regions)
+
+    df = match_spelling(df, 'region')
 
     df['region'] = df['region'].apply(lambda x: 'Unknown' if pd.isna(x) else x)
     return df
@@ -74,19 +73,19 @@ def clean_region(df: pd.DataFrame) -> pd.DataFrame:
 
 def clean_channel(df: pd.DataFrame) -> pd.DataFrame:
     df['channel'] = df['channel'].str.strip().str.title()
-    
-    channels = find_best_match(df['channel'])
 
     # Pass DataFrame, column name (string), and unique values
-    match_spelling(df, 'channel', channels)
+    df = match_spelling(df, 'channel')
     
     return df
         
     #solve the error 
 
 def clean_customer_type(df: pd.DataFrame) -> pd.DataFrame:
-    
-    #fuzz match customer types and update them in the DataFrame
+    df['customer_type'] = df['customer_type'].str.strip().str.title()
+
+    df = match_spelling(df, 'customer_type')
+
     return df
 
 df = read_csv(CSV_PATH)
@@ -101,7 +100,10 @@ df = clean_region(df)
 
 df = clean_channel(df)
 
-print(df['channel'].tail(30))
+df  = clean_customer_type(df)
+
+print(df['customer_type'].head(30))
+# print(df.head())
 print(len(df)) #original length is 299
 
 

@@ -1,3 +1,4 @@
 .venv
 /ETL 1 Weather/weather-dashboard/node_modules
 /ETL 1 Weather/weather-dashboard/.next
+/ETL 3 Medical Report/__pycache__
