@@ -1,4 +1,11 @@
 .venv
 /ETL 1 Weather/weather-dashboard/node_modules
 /ETL 1 Weather/weather-dashboard/.next
-/ETL 3 Medical Report/__pycache__
+
+# Python cache directories and files
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python

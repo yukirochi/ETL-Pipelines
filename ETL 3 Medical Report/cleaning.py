@@ -4,89 +4,21 @@ import pandas as pd
 import sqlite3
 from thefuzz import fuzz
 from pathlib import Path
-from functions import find_best_match, match_spelling
-
+from cleaning_functions.read_csv import read_csv
+from cleaning_functions.channel import clean_channel
+from cleaning_functions.customer_type import clean_customer_type
+from cleaning_functions.region import clean_region
+from cleaning_functions.dates import clean_dates
+from cleaning_functions.invoice_id import clean_invoice_id
+from cleaning_functions.order_id import clean_order_id
+from cleaning_functions.customer_id import clean_customer_id
+from cleaning_functions.sales_rep import clean_sales_rep
+from cleaning_functions.product_name import clean_product_name
+from cleaning_functions.product_category import clean_product_category
 BASE_DIR = Path(__file__).resolve().parent
 CSV_PATH = BASE_DIR / "medical report.csv"
 
-def read_csv(path: Path) -> pd.DataFrame:
 
-    if not path.exists():
-        raise FileNotFoundError(f"File not found: {path}")  
-    
-    df = pd.read_csv(path)
-    
-    df.columns = (
-        df.columns
-        .str.strip()
-        .str.lower()
-        .str.replace(" ", "_")
-        )
-    
-    return df
-
-def clean_order_id(df: pd.DataFrame) -> pd.DataFrame:   
-    df.drop_duplicates(subset=['order_id'], inplace=True)
-    
-    clean_id = (df["order_id"]
-                      .str.strip()
-                      .str.replace('MD', '')
-                      .str.replace('-', '')
-                      .str.replace(r'\D', '', regex=True))
-    
-    df = df[clean_id.str.len() == 9]
-    return df
-
-def clean_invoice_id(df: pd.DataFrame) -> pd.DataFrame:
-    df.drop_duplicates(subset=['invoice_id'], inplace=True)
-    
-    clean_id = (df["invoice_id"]
-                      .str.strip()
-                      .str.replace('INV', '')
-                      .str.replace('-', '')
-                      .str.replace(r'\D', '', regex=True))
-    
-    df = df[clean_id.str.len() == 6]
-    return df
-
-def clean_dates(df: pd.DataFrame) -> pd.DataFrame:
-    
-    for col in ("order_date", "ship_date", 'delivery_date'):
-        normalized_col = df[col].str.strip().str.replace(r'[ /]', '-', regex=True)
-        df[col] = pd.to_datetime(normalized_col,format='mixed', errors='coerce').dt.date
-        df[col] = df[col].apply(lambda x: 'unknown' if pd.isna(str(x)) else x )
-
-    df = df[~(df['ship_date'] < df['order_date'])]
-    df = df[~(df['delivery_date'] < df['ship_date'])]
-    return df
-
-
-def clean_region(df: pd.DataFrame) -> pd.DataFrame:
-
-    df['region'] = df['region'].str.strip().str.title()
-
-    df = match_spelling(df, 'region')
-
-    df['region'] = df['region'].apply(lambda x: 'Unknown' if pd.isna(x) else x)
-    return df
-
-
-def clean_channel(df: pd.DataFrame) -> pd.DataFrame:
-    df['channel'] = df['channel'].str.strip().str.title()
-
-    # Pass DataFrame, column name (string), and unique values
-    df = match_spelling(df, 'channel')
-    
-    return df
-        
-    #solve the error 
-
-def clean_customer_type(df: pd.DataFrame) -> pd.DataFrame:
-    df['customer_type'] = df['customer_type'].str.strip().str.title()
-
-    df = match_spelling(df, 'customer_type')
-
-    return df
 
 df = read_csv(CSV_PATH)
 
@@ -102,7 +34,17 @@ df = clean_channel(df)
 
 df  = clean_customer_type(df)
 
-print(df['customer_type'].head(30))
+df = clean_customer_id(df)
+
+df = clean_sales_rep(df)
+
+df = clean_product_name(df)
+
+df = clean_product_category(df)
+
+
+print(df.iloc[:, 8: ].tail(30))
+# print(df.iloc[df['order_id'] == 'MD-2501-00134'].iloc[:, 8: ])
 # print(df.head())
 print(len(df)) #original length is 299
 

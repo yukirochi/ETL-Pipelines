@@ -1,22 +1,14 @@
 import pandas as pd
 from thefuzz import fuzz
+from cleaning_tools.find_unique_values import find_unique_values 
 
-def find_best_match(column: pd.Series) -> list: #finding unique right spelled values in column
-    try:
-        counts = column.value_counts(dropna=True)
-        unique_values = [str(v) for v in counts[counts >= 3].index if pd.notna(v)]
-        return unique_values
-    except Exception as e:
-        print(f"Error in find_best_match: {e}")
-        return []
-
-def match_spelling(df: pd.DataFrame, col_name) -> pd.DataFrame:
+def match_spelling(df: pd.DataFrame, col_name: str, count: int = 3) -> pd.DataFrame:
     try:
         col = df[col_name]
-        unique_values = find_best_match(col)
+        unique_values = find_unique_values(col, count)
         
         if not unique_values:
-            print('no unique values found that apear 3 times or more')
+            print(f'no unique values found that appear {count} times or more')
             return df
         
         without_nan_values  = [v for v in df[col_name].unique() if pd.notna(v)]
@@ -31,7 +23,7 @@ def match_spelling(df: pd.DataFrame, col_name) -> pd.DataFrame:
                     # (col == value) = boolean checklist showing which ROWS match (DOWN direction)
                     # col_name = which COLUMN to update (RIGHT direction)
                     # Together they create the exact coordinate to update
-                equivalent =  best_match
+                equivalent =  best_match.title()
             else:
                     # Same logic: find matching rows, update only in this column
                 equivalent = 'unknown'
