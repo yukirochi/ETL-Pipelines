@@ -1,4 +1,5 @@
 .venv
+/ETL 1 Weather/weather-dashboard/
 /ETL 1 Weather/weather-dashboard/node_modules
 /ETL 1 Weather/weather-dashboard/.next
 

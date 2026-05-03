@@ -1,0 +1,7 @@
+pandas
+numpy
+requests
+schedule
+pycountry-convert
+thefuzz
+duckdb
